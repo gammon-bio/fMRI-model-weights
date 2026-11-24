@@ -1,0 +1,13 @@
+# End-to-end diagnosis fine-tuning (Phase 2 repair target). Uses the pretrained checkpoints from
+# `make reproduce` (outputs/runs/<condition>/seed<k>/model.pt) and the data config in base_config.
+base_config: configs/default.yaml
+conditions: [confound_on]
+seeds: [0, 1, 2, 3, 4]
+finetune:
+  steps: 1500
+  batch_size: 64
+  lr_head: 1.0e-3
+  lr_backbone: 1.0e-4
+  weight_decay: 0.01
+eval:
+  n_perm_probe: 200

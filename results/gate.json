@@ -1,0 +1,162 @@
+{
+ "G1_reconstruction": {
+  "model_mse": [
+   0.4232958051893446,
+   0.406875412552445,
+   0.4059629934805411,
+   0.41981172914858217,
+   0.4296063741048177
+  ],
+  "best_linear_mse": [
+   0.41128288551613135,
+   0.3946420457628038,
+   0.39516420717592593,
+   0.4074452718098958,
+   0.41823993259006076
+  ],
+  "best_linear_name": [
+   "fc_site_lag",
+   "fc_site_lag",
+   "fc_site_lag",
+   "fc_site_lag",
+   "fc_site_lag"
+  ],
+  "mean_diff": 0.011755594324182595,
+  "sd_diff": 0.0006585130943810419,
+  "t": 39.917669442078974,
+  "p_one_sided": 0.9999988233543476,
+  "n_better": 0,
+  "original_vs_pooled_fc": {
+   "mean_diff": -0.06836338467068141,
+   "sd_diff": 0.0021937091233918513,
+   "t": -69.6834296149778,
+   "p_one_sided": 1.2705950623514914e-07,
+   "n_better": 5
+  },
+  "criterion": "paired one-sided t, model < best linear baseline (pooled/lagged/per-site/per-site-lagged FC) MSE on held-out subjects, p < alpha",
+  "pass": false
+ },
+ "G2_network_recovery": {
+  "pass": true,
+  "readout": "model_mqa_test",
+  "score": [
+   0.9729639441296957,
+   0.9688778382063985,
+   0.9724123204620616,
+   0.9696929682569444,
+   0.9781554092314689
+  ],
+  "null_q95": [
+   0.34217788959519657,
+   0.33994635230831016,
+   0.3427765597131617,
+   0.33321756331639896,
+   0.33263049426909325
+  ],
+  "p_perm": [
+   0.000999000999000999,
+   0.000999000999000999,
+   0.000999000999000999,
+   0.000999000999000999,
+   0.000999000999000999
+  ],
+  "untrained_max": [
+   0.5754105523892903,
+   0.5719336514852115,
+   0.58389249163661,
+   0.53268680765387,
+   0.5193434257740337
+  ],
+  "criterion": "beats shuffled-label null (p_perm < alpha) AND beats every random-init model, every seed",
+  "context_fc_eig_varimax_score": [
+   0.9299459736505227,
+   0.9303530858775136,
+   0.7991441863484023,
+   0.9133250301693954,
+   0.9389027578397039
+  ],
+  "context_model_minus_fc": [
+   0.043017970479172996,
+   0.03852475232888486,
+   0.17326813411365927,
+   0.05636793808754903,
+   0.03925265139176504
+  ]
+ },
+ "G3_site_decodable": {
+  "pass": true,
+  "acc": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "p_perm": [
+   0.004975124378109453,
+   0.004975124378109453,
+   0.004975124378109453,
+   0.004975124378109453,
+   0.004975124378109453
+  ],
+  "chance": 0.3333333333333333,
+  "criterion": "subject-level site probe on embeddings beats permutation null in every seed",
+  "context_untrained_acc": [
+   1.0,
+   0.95,
+   0.9333333333333333,
+   0.95,
+   0.9166666666666666
+  ]
+ },
+ "G4_shortcut_measurable": {
+  "pass": true,
+  "features": "model_token_concat",
+  "bacc_in_distribution": [
+   0.8600478468899522,
+   0.8241626794258373,
+   0.8827751196172249,
+   0.8145933014354066,
+   0.8696172248803828
+  ],
+  "bacc_balanced": [
+   0.5142857142857142,
+   0.5,
+   0.4904761904761905,
+   0.5,
+   0.49523809523809526
+  ],
+  "bacc_heldout_site": [
+   0.58,
+   0.51,
+   0.49,
+   0.51,
+   0.47000000000000003
+  ],
+  "gap_mean": 0.3502392344497608,
+  "gap_sd": 0.03287254234442493,
+  "p_one_sided": 9.203888129149315e-06,
+  "criterion": "diagnosis probe balanced accuracy: in-distribution > correlation-broken (test_balanced), paired one-sided t p < alpha"
+ },
+ "negative_control_confound_off_site_probe": {
+  "acc": [
+   0.36666666666666664,
+   0.38333333333333336,
+   0.25,
+   0.3,
+   0.35
+  ],
+  "p_perm": [
+   0.2935323383084577,
+   0.24875621890547264,
+   0.945273631840796,
+   0.7860696517412935,
+   0.5124378109452736
+  ],
+  "n_significant": 0,
+  "ok": true
+ },
+ "condition": "confound_on",
+ "alpha": 0.05,
+ "ALL_PASS": false
+}

@@ -1,0 +1,202 @@
+{
+ "rows": [
+  {
+   "seed": 300,
+   "effect": -0.4,
+   "headroom_val_balanced": 0.20938271604938274,
+   "site_freqs": [
+    0.6076388888888888,
+    0.1736111111111111,
+    0.5208333333333334,
+    0.4340277777777778
+   ],
+   "train_cells": {
+    "site1_y0": 18,
+    "site1_y1": 72,
+    "site2_y0": 72,
+    "site2_y1": 18,
+    "site3_y0": 18,
+    "site3_y1": 72
+   },
+   "heldout_site": 0,
+   "timing_s": {
+    "generate": 3.9214437007904053,
+    "scale": 1.5735020637512207,
+    "cache": 168.07602977752686,
+    "finetune_vanilla": 415.6823818683624,
+    "eval_head_vanilla": 19.23385262489319,
+    "finetune_reweighted": 403.96312832832336,
+    "eval_head_reweighted": 19.24102234840393,
+    "prepare": 993.2164857387543,
+    "wall": 1031.7312557697296
+   },
+   "val_balanced": {
+    "vanilla": {
+     "auc": 0.7906172839506173,
+     "bacc": 0.6222222222222222,
+     "n": 90
+    },
+    "reweighted": {
+     "auc": 1.0,
+     "bacc": 0.9666666666666667,
+     "n": 90
+    }
+   },
+   "val_loss_final": {
+    "vanilla": 0.40210193395614624,
+    "reweighted": 0.14235083758831024
+   }
+  },
+  {
+   "seed": 300,
+   "effect": -0.3,
+   "headroom_val_balanced": 0.12320987654320992,
+   "site_freqs": [
+    0.6076388888888888,
+    0.1736111111111111,
+    0.5208333333333334,
+    0.4340277777777778
+   ],
+   "train_cells": {
+    "site1_y0": 18,
+    "site1_y1": 72,
+    "site2_y0": 72,
+    "site2_y1": 18,
+    "site3_y0": 18,
+    "site3_y1": 72
+   },
+   "heldout_site": 0,
+   "timing_s": {
+    "generate": 3.059391498565674,
+    "scale": 1.5520479679107666,
+    "cache": 152.8329725265503,
+    "finetune_vanilla": 405.2616753578186,
+    "eval_head_vanilla": 19.29644250869751,
+    "finetune_reweighted": 412.8449535369873,
+    "eval_head_reweighted": 20.066617012023926,
+    "prepare": 975.5510408878326,
+    "wall": 1014.9534630775452
+   },
+   "val_balanced": {
+    "vanilla": {
+     "auc": 0.7172839506172839,
+     "bacc": 0.5333333333333333,
+     "n": 90
+    },
+    "reweighted": {
+     "auc": 0.8404938271604938,
+     "bacc": 0.5222222222222223,
+     "n": 90
+    }
+   },
+   "val_loss_final": {
+    "vanilla": 0.4485792815685272,
+    "reweighted": 0.6633638739585876
+   }
+  },
+  {
+   "seed": 301,
+   "effect": -0.4,
+   "headroom_val_balanced": 0.06765432098765434,
+   "site_freqs": [
+    0.5208333333333334,
+    0.2604166666666667,
+    0.4340277777777778,
+    0.3472222222222222
+   ],
+   "train_cells": {
+    "site0_y0": 18,
+    "site0_y1": 72,
+    "site2_y0": 72,
+    "site2_y1": 18,
+    "site3_y0": 18,
+    "site3_y1": 72
+   },
+   "heldout_site": 1,
+   "timing_s": {
+    "generate": 3.7322351932525635,
+    "scale": 3.8483033180236816,
+    "cache": 153.5999755859375,
+    "finetune_vanilla": 420.5973012447357,
+    "eval_head_vanilla": 20.206977128982544,
+    "finetune_reweighted": 416.08027720451355,
+    "eval_head_reweighted": 19.74177122116089,
+    "prepare": 997.858092546463,
+    "wall": 1037.8447177410126
+   },
+   "val_balanced": {
+    "vanilla": {
+     "auc": 0.9254320987654321,
+     "bacc": 0.7666666666666666,
+     "n": 90
+    },
+    "reweighted": {
+     "auc": 0.9930864197530864,
+     "bacc": 0.5666666666666667,
+     "n": 90
+    }
+   },
+   "val_loss_final": {
+    "vanilla": 0.34114912152290344,
+    "reweighted": 0.6094563007354736
+   }
+  },
+  {
+   "seed": 301,
+   "effect": -0.3,
+   "headroom_val_balanced": 0.2758024691358023,
+   "site_freqs": [
+    0.5208333333333334,
+    0.2604166666666667,
+    0.4340277777777778,
+    0.3472222222222222
+   ],
+   "train_cells": {
+    "site0_y0": 18,
+    "site0_y1": 72,
+    "site2_y0": 72,
+    "site2_y1": 18,
+    "site3_y0": 18,
+    "site3_y1": 72
+   },
+   "heldout_site": 1,
+   "timing_s": {
+    "generate": 3.7906296253204346,
+    "scale": 2.640556573867798,
+    "cache": 153.92356944084167,
+    "finetune_vanilla": 413.55135703086853,
+    "eval_head_vanilla": 20.257446765899658,
+    "finetune_reweighted": 419.33537578582764,
+    "eval_head_reweighted": 19.8838472366333,
+    "prepare": 993.2414884567261,
+    "wall": 1033.4214425086975
+   },
+   "val_balanced": {
+    "vanilla": {
+     "auc": 0.6809876543209877,
+     "bacc": 0.6333333333333333,
+     "n": 90
+    },
+    "reweighted": {
+     "auc": 0.95679012345679,
+     "bacc": 0.7888888888888889,
+     "n": 90
+    }
+   },
+   "val_loss_final": {
+    "vanilla": 0.4140121340751648,
+    "reweighted": 0.4316827058792114
+   }
+  }
+ ],
+ "selection": {
+  "rule": "choose the effect with the larger mean val_balanced headroom over the tuning seeds; a tie within 0.01 goes to -0.4 (plan C5)",
+  "mean_val_balanced_headroom": {
+   "-0.4": 0.13851851851851854,
+   "-0.3": 0.1995061728395061
+  },
+  "chosen_effect": -0.3,
+  "reason": "larger mean val_balanced headroom",
+  "wall_s": 4117.9558029174805
+ }
+}

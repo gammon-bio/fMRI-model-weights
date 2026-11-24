@@ -1,0 +1,4 @@
+pilot-s01-fixA 0.089 False
+pilot-s03-fixA 0.078 False
+pilot-s04-fixA 0.367 True
+pilot-s05-fixA 0.144 False

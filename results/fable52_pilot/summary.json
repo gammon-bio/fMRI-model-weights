@@ -1,0 +1,35 @@
+{
+ "n_published": 10,
+ "void_or_unreadable": [],
+ "H_A": {
+  "n": 10,
+  "median_pct_matched": 50.0,
+  "mean_pct_matched": 61.3,
+  "wilcoxon_p_one_sided": 0.125,
+  "frac_pct_gt_95": 0.3,
+  "frac_pct_lt_5": 0.0,
+  "secondary_minus_unedited_mean": 0.02394557823129252,
+  "secondary_ci95": [
+   -0.00327437641723356,
+   0.06080725623582767
+  ],
+  "secondary_wilcoxon_p_one_sided": 0.1875,
+  "minus_pool_leace_mean": -0.058521541950113345,
+  "minus_reweight_ft_mean": -0.18353741496598638,
+  "n_no_submission": 0,
+  "n_no_change_edit": 6,
+  "pct_matched_all": [
+   100.0,
+   100.0,
+   50.0,
+   50.0,
+   50.0,
+   100.0,
+   50.0,
+   50.0,
+   50.0,
+   13.0
+  ],
+  "n_improved_over_unedited": 3
+ }
+}

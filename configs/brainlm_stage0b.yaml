@@ -1,0 +1,33 @@
+# BrainLM Stage 0b (docs/brainlm_stage0b_plan.md, fixed 6bfab91). Synthetic plumbing only.
+base_config: configs/default.yaml
+compute:
+  n_threads: 2            # torch / BLAS cap; keep below the core count
+  bf16_autocast: true
+weights_dir: /home/user/brainlm_scout/weights/vitmae_111M   # outside the repo (CC BY-NC-ND 4.0)
+data_overrides:           # applied to base_config
+  data.n_regions: 424
+  data.tr: 0.72
+  data.n_timepoints: 200
+  data.subjects_per_site: 150                       # C4
+  data.diagnosis.train_prevalence: [0.8, 0.2, 0.8]  # C4
+  # C1: 16-sample DFT bins at TR 0.72 s, k = 2..7 (k / 11.52 Hz); 4 of 6 drawn per seed
+  data.confound.freq_choices: [0.1736111111111111, 0.2604166666666667, 0.3472222222222222,
+                               0.4340277777777778, 0.5208333333333334, 0.6076388888888888]
+finetune:                 # C2 / C3 (learning rates as Stage 0)
+  epochs: 10
+  early_stopping: false   # final weights
+  batch_size: 16
+  lr_head: 1.0e-3
+  lr_layers: 5.0e-5
+  weight_decay: 0.01
+  patience: 0             # unused without early stopping
+reference: group_balanced # C2: site x label cells sampled equally, with replacement
+tuning:                   # C5
+  seeds: [300, 301]
+  effects: [-0.4, -0.3]
+  tie_tol: 0.01
+  tie_winner: -0.4
+gate_seeds: [210, 211, 212]
+controls:
+  n_random: 20
+  band_kmin: 2            # c and e live in span of DFT bins k >= 2 (13 dims)

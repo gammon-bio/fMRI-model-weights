@@ -1,0 +1,29 @@
+{
+ "void_episodes": [
+  {
+   "episode": "conf-fix-013",
+   "edit_class": "OFF",
+   "rho": 0.0,
+   "delta_auc": -0.06757369614512465
+  },
+  {
+   "episode": "conf-fix-021",
+   "edit_class": "OFF",
+   "rho": 0.0,
+   "delta_auc": 0.03147392290249429
+  },
+  {
+   "episode": "conf-fix-041",
+   "edit_class": "no_op",
+   "rho": 0.0,
+   "delta_auc": 0.0
+  }
+ ],
+ "with_void": {
+  "n_on": 7,
+  "n_off": 14,
+  "mean_on": 0.12060900550696466,
+  "mean_off": -0.0070424360220278604,
+  "p_one_sided": 0.0021155830753353975
+ }
+}

@@ -1,0 +1,13 @@
+Phase 2 confirmation pre-registration LOCKED 2026-11-08 under Caleb's instruction to run the confirmation study.
+Pre-lock review: Fable 5.1 checker, verdict LOCK AFTER FIXES; the blocker and suggestions were applied in commit 41abc1a342b6afd77cab83a50b429c86068cdb58.
+commit: 41abc1a342b6afd77cab83a50b429c86068cdb58
+sha256 3b387fed47aece27c785a0d33dbec543783ef49a7d995373808c6f1067dc82b9  docs/phase2_confirm_prereg.md
+sha256 12e7b0f3c558a660958fdbc39814598ca57c1d4798c700b2689cf4de057b9115  scripts/phase2_confirm_analyze.py
+sha256 657316dcf20fffa6e58898ec255e6d0498eb0dc01bc7d5569943f2c9d03189d2  scripts/phase2_input_layer_check.py
+sha256 96253d9a82f6c6ebfad00ea7a98ffd690a59750590620661fc611827d6fea308  scripts/phase2_analyze.py
+sha256 258bece7b398b686e8508c2793bd4d8c3fe3a59e18386752384100823b202d0b  scripts/phase2_batch_prepare.py
+sha256 992103b84757a0d69c538e8a1f682b9236e4171c39a0d5713c5372d6cab142f5  scripts/phase2_handoff.py
+sha256 97e341ba6a3cedcdc57cc17824ee981860d1dae20cf7bca301e262abe2b74fda  configs/harness.yaml
+sha256 83c0627566644131ff8c934ec7c4babea7625e6674d741e0cc37614adc71df6a  configs/default.yaml
+sha256 3468c7e187309c3b1a9addcc489df74eda48eff1669039d0f9f0011fb8533ec2  configs/finetune.yaml
+No confirmation seed had been prepared at lock time.

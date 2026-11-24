@@ -1,0 +1,76 @@
+{
+ "n_published": 55,
+ "void_or_unreadable": [],
+ "H_A": {
+  "n": 30,
+  "median_pct_matched": 100.0,
+  "mean_pct_matched": 70.91666666666667,
+  "wilcoxon_p_one_sided": 0.0032094996599916583,
+  "frac_pct_gt_95": 0.6,
+  "frac_pct_lt_5": 0.2,
+  "secondary_minus_unedited_mean": 0.06963869992441421,
+  "secondary_ci95": [
+   0.03384708994708992,
+   0.10567800453514736
+  ],
+  "secondary_wilcoxon_p_one_sided": 0.0007151416178011404,
+  "minus_pool_leace_mean": -0.019449735449735474,
+  "minus_reweight_ft_mean": -0.11524716553287986,
+  "n_no_submission": 0,
+  "n_no_change_edit": 5,
+  "pct_matched_all": [
+   100.0,
+   100.0,
+   50.0,
+   1.0,
+   100.0,
+   100.0,
+   50.0,
+   100.0,
+   4.0,
+   100.0,
+   100.0,
+   0.0,
+   0.0,
+   50.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   50.0,
+   100.0,
+   100.0,
+   50.0,
+   100.0,
+   0.0,
+   74.0,
+   99.0,
+   100.0,
+   0.0,
+   100.0,
+   99.5
+  ],
+  "n_improved_over_unedited": 19
+ },
+ "H_R": {
+  "n": 20,
+  "correct": 19,
+  "binom_p_one_sided": 2.002716064453125e-05,
+  "accuracy_ci95": [
+   0.85,
+   1.0
+  ],
+  "mean_brier": 0.10196000000000001
+ },
+ "false_positive_arm": {
+  "n": 5,
+  "answered_neither": 0,
+  "answers": [
+   "model_B",
+   "model_B",
+   "model_B",
+   "model_B",
+   "model_B"
+  ]
+ }
+}

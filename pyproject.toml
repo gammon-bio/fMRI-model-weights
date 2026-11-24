@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmritest"
+version = "0.1.0"
+description = "Synthetic resting-state fMRI interpretability testbed"
+requires-python = ">=3.11"
+dependencies = ["torch", "numpy", "scipy", "scikit-learn", "matplotlib", "pyyaml", "pytest"]
+
+[project.optional-dependencies]
+# BrainLM vitmae_111M (stock HF ViTMAE); weights live outside the repo (CC BY-NC-ND)
+brainlm = ["transformers==4.46.3"]
+
+[tool.setuptools.packages.find]
+include = ["fmritest*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

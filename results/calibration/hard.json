@@ -1,0 +1,235 @@
+{
+ "target": 0.75,
+ "tol": 0.03,
+ "seeds": [
+  100,
+  101,
+  102,
+  103
+ ],
+ "grid": [
+  {
+   "overrides": {
+    "data.overlap_prob": 0.8,
+    "data.noise_sd_range": [
+     1.5,
+     2.2
+    ],
+    "data.loading_sd": 0.4
+   },
+   "fc_eig_varimax": 0.8077517087258737,
+   "per_seed": [
+    0.7901475678995411,
+    0.7377795049782611,
+    0.8483692723888172,
+    0.8547104896368755
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 0.8,
+    "data.noise_sd_range": [
+     1.5,
+     2.2
+    ],
+    "data.loading_sd": 0.5
+   },
+   "fc_eig_varimax": 0.8207213579449233,
+   "per_seed": [
+    0.8041846041526164,
+    0.7476368689770844,
+    0.8614384171579136,
+    0.8696255414920788
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 0.8,
+    "data.noise_sd_range": [
+     1.8,
+     2.6
+    ],
+    "data.loading_sd": 0.4
+   },
+   "fc_eig_varimax": 0.8057299094744577,
+   "per_seed": [
+    0.7875400880689132,
+    0.7369871187383715,
+    0.8463822362729863,
+    0.8520101948175596
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 0.8,
+    "data.noise_sd_range": [
+     1.8,
+     2.6
+    ],
+    "data.loading_sd": 0.5
+   },
+   "fc_eig_varimax": 0.8209121515600912,
+   "per_seed": [
+    0.8042754018465086,
+    0.7488985267622892,
+    0.8610818235671871,
+    0.8693928540643799
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 0.8,
+    "data.noise_sd_range": [
+     2.2,
+     3.2
+    ],
+    "data.loading_sd": 0.4
+   },
+   "fc_eig_varimax": 0.8037763650770516,
+   "per_seed": [
+    0.7871405821316918,
+    0.7336619802857312,
+    0.8451838253751843,
+    0.8491190725155991
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 0.8,
+    "data.noise_sd_range": [
+     2.2,
+     3.2
+    ],
+    "data.loading_sd": 0.5
+   },
+   "fc_eig_varimax": 0.8211563306394105,
+   "per_seed": [
+    0.8061633457135183,
+    0.747697192673217,
+    0.861615078744071,
+    0.8691497054268356
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 1.0,
+    "data.noise_sd_range": [
+     1.5,
+     2.2
+    ],
+    "data.loading_sd": 0.4
+   },
+   "fc_eig_varimax": 0.7935579065292453,
+   "per_seed": [
+    0.7491245881700529,
+    0.8391801698540615,
+    0.9200485226163823,
+    0.6658783454764844
+   ],
+   "accepted": false
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 1.0,
+    "data.noise_sd_range": [
+     1.5,
+     2.2
+    ],
+    "data.loading_sd": 0.5
+   },
+   "fc_eig_varimax": 0.807791632080865,
+   "per_seed": [
+    0.7594163454751041,
+    0.8702584765294242,
+    0.9268710314176065,
+    0.6746206749013256
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 1.0,
+    "data.noise_sd_range": [
+     1.8,
+     2.6
+    ],
+    "data.loading_sd": 0.4
+   },
+   "fc_eig_varimax": 0.7978309727690693,
+   "per_seed": [
+    0.7477069048080194,
+    0.8404815631756962,
+    0.918472844676485,
+    0.6846625784160765
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 1.0,
+    "data.noise_sd_range": [
+     1.8,
+     2.6
+    ],
+    "data.loading_sd": 0.5
+   },
+   "fc_eig_varimax": 0.8157471761919622,
+   "per_seed": [
+    0.759225715129431,
+    0.8712371631549628,
+    0.9263160817106506,
+    0.7062097447728046
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 1.0,
+    "data.noise_sd_range": [
+     2.2,
+     3.2
+    ],
+    "data.loading_sd": 0.4
+   },
+   "fc_eig_varimax": 0.8022460253689846,
+   "per_seed": [
+    0.7452963631596695,
+    0.8391804768747276,
+    0.9169258234429577,
+    0.7075814379985835
+   ]
+  },
+  {
+   "overrides": {
+    "data.overlap_prob": 1.0,
+    "data.noise_sd_range": [
+     2.2,
+     3.2
+    ],
+    "data.loading_sd": 0.5
+   },
+   "fc_eig_varimax": 0.8233787562549959,
+   "per_seed": [
+    0.7580712896779719,
+    0.8688999849784652,
+    0.9259170225398327,
+    0.7406267278237137
+   ]
+  }
+ ],
+ "chosen": {
+  "overrides": {
+   "data.overlap_prob": 1.0,
+   "data.noise_sd_range": [
+    1.5,
+    2.2
+   ],
+   "data.loading_sd": 0.4
+  },
+  "fc_eig_varimax": 0.7935579065292453,
+  "per_seed": [
+   0.7491245881700529,
+   0.8391801698540615,
+   0.9200485226163823,
+   0.6658783454764844
+  ],
+  "accepted": false
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "plan": "docs/brainlm_stage0b_plan.md (6bfab91)",
+ "seeds": [
+  210,
+  211,
+  212
+ ],
+ "effect": -0.3,
+ "selection": {
+  "rule": "choose the effect with the larger mean val_balanced headroom over the tuning seeds; a tie within 0.01 goes to -0.4 (plan C5)",
+  "mean_val_balanced_headroom": {
+   "-0.4": 0.13851851851851854,
+   "-0.3": 0.1995061728395061
+  },
+  "chosen_effect": -0.3,
+  "reason": "larger mean val_balanced headroom",
+  "wall_s": 4117.9558029174805
+ },
+ "gates": {
+  "G0b_shortcut": {
+   "mean_headroom": 0.18902494331065767,
+   "headroom": [
+    0.1673015873015874,
+    0.1631746031746032,
+    0.2365986394557824
+   ],
+   "mean_vanilla_gap": 0.18218673889308812,
+   "vanilla_gap": [
+    0.12357310825564793,
+    0.2182764340304023,
+    0.2047106743932141
+   ],
+   "reweighted_test_auc": [
+    0.974022633744856,
+    0.819701646090535,
+    0.9567901234567902
+   ],
+   "pass": true
+  },
+  "G0b_control": {
+   "mean_a_minus_c_mean": 0.014658352229780819,
+   "a_minus_c_mean": [
+    0.032671201814058914,
+    0.0333061224489796,
+    -0.022002267573696055
+   ],
+   "a_gt_c_max": [
+    true,
+    false,
+    false
+   ],
+   "a_gt_0": [
+    true,
+    true,
+    true
+   ],
+   "delta_a": [
+    0.1498866213151927,
+    0.13809523809523816,
+    0.09650793650793654
+   ],
+   "c_mean": [
+    0.11721541950113379,
+    0.10478911564625856,
+    0.1185102040816326
+   ],
+   "c_max": [
+    0.14426303854875278,
+    0.15278911564625863,
+    0.1871201814058956
+   ],
+   "pass": false
+  },
+  "G0b_specific": {
+   "mean_a_minus_e": 0.030309901738473182,
+   "a_minus_e": [
+    0.06848072562358276,
+    0.05891156462585034,
+    -0.03646258503401356
+   ],
+   "delta_e": [
+    0.08140589569160994,
+    0.07918367346938782,
+    0.1329705215419501
+   ],
+   "pass": true
+  },
+  "G0b_compute": {
+   "seconds_per_seed_prepare_plus_controls": [
+    2535.738599538803,
+    2501.770723581314,
+    2437.0421674251556
+   ],
+   "mean": 2491.517163515091,
+   "pass": true
+  }
+ },
+ "note": "Synthetic plumbing only; not a scientific result."
+}

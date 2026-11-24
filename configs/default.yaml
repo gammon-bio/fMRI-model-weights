@@ -1,0 +1,89 @@
+# Default configuration. `make reproduce` runs every seed in `seeds` for every condition in
+# `conditions`. A condition is a dict of dotted-key overrides applied to this file.
+seeds: [0, 1, 2, 3, 4]
+conditions:
+  confound_on: {}                       # primary condition (gated)
+  confound_off:                         # negative control: no site signal in the data at all
+    data.confound.strength: 0.0
+    data.diagnosis.enabled: false       # prevalence-by-site would itself make site decodable
+  # `hard` was dropped (2026-11-03): one-pass recalibration on all 4 sites (scripts/calibrate_hard.py,
+  # results/calibration/hard.json) could not reach FC recovery 0.75 +/- 0.03 (closest 0.794); noise
+  # barely moves group-FC recovery at 180 training subjects x 200 TRs.
+
+compute:
+  n_threads: 2          # hard cap on torch / BLAS threads; keep below the core count
+
+data:
+  n_regions: 30
+  n_networks: 5
+  n_sites: 4
+  subjects_per_site: 100   # power calibration (validation only): 100 needed for headroom >= 0.25
+  n_timepoints: 200
+  tr: 2.0
+  phi: 0.5              # AR(1) coefficient of latent neural sources
+  overlap_prob: 0.2     # probability a region also belongs to a second network
+  loading_sd: 0.2       # log-normal jitter of subject loadings
+  noise_sd_range: [0.5, 0.9]
+  confound:
+    strength: 0.6
+    mode: both          # spatial | spectral | both
+    freq_range: [0.04, 0.20]   # Hz, site-specific carrier frequencies (Nyquist = 0.25 Hz)
+    subject_amp_range: [0.8, 1.2]
+  diagnosis:            # planted shortcut task (see fmritest/data/generator.py)
+    enabled: true
+    network: 0          # patients: this network's loadings scaled by (1 + effect)
+    effect: -0.4        # power-calibrated on val_balanced, seeds 100-103 (scripts/calibrate_power.py)
+    train_prevalence: [0.9, 0.1, 0.9]   # per training site, ascending site index: label <-> site correlated
+    heldout_prevalence: 0.5             # held-out site: correlation broken
+    n_balanced_per_site: 70             # test_balanced: n = 210 -> SE(bacc) <= 0.035 at p = 0.5
+    n_val_balanced_per_site: 30         # val_balanced: calibration / Phase 2 feedback only
+
+split:
+  frac: [0.6, 0.2, 0.2]  # train / val / test within training sites
+  # held-out site = seed % n_sites (rotates over seeds)
+
+model:
+  token: region          # region-as-token (see README for rationale)
+  window: 48             # timepoints per token
+  d_model: 64
+  n_heads: 4
+  n_layers: 2
+  d_mlp: 128
+  mask_ratio: 0.2        # fraction of region tokens masked per window
+
+train:
+  steps: 10000          # chosen from seed-0 val-loss plateau (see README, "Forking paths")
+  batch_size: 64
+  lr: 1.0e-3
+  weight_decay: 0.01
+  warmup: 100
+  eval_every: 100
+
+eval:
+  masks_per_window: 4    # random masks per non-overlapping eval window
+  n_perm_network: 1000   # shuffled-label null draws for network recovery
+  n_perm_probe: 200      # label-permutation null draws for site probes
+  n_untrained_inits: 10  # random inits forming the untrained-model null for network recovery
+  fc_lags: 2             # temporal context (+/- TRs) for the lagged linear baselines
+  probe_C: 1.0
+  diag_probe_C: 0.1      # subject-level diagnosis probes (L2 logistic on standardized features)
+  # Pre-registered primary diagnosis features: per-region final-layer token means (R*d), subject level
+  diag_features: token_concat
+  # Pre-registered primary readout for network recovery (fixed before any run):
+  network_readout: masked_query_attention
+  network_extraction: eig_varimax
+
+gate:
+  alpha: 0.05
+  # Pre-registered gate criteria (fixed before the 5-seed run; see scripts/gate.py):
+  #  G1 recon:   confound_on, held-out subjects: paired (model - best linear baseline) MSE < 0, one-sided
+  #              paired t p < alpha. Best linear = min over pooled FC, lagged FC, per-site FC, per-site lagged FC.
+  #              (v1 compared against pooled FC only; that comparison is still reported as G1-original.)
+  #  G2 network: confound_on, primary readout beats the shuffled-label null (p_perm < alpha) AND beats the
+  #              best of n_untrained_inits random-init models, in every seed. (v1: shuffled-label null only,
+  #              which an untrained model also passes.)
+  #  G3 site:    confound_on, subject-level site probe beats label-permutation null in every seed
+  #  G4 shortcut: confound_on, diagnosis probe on model embeddings: balanced accuracy on in-distribution
+  #              held-out subjects minus on test_balanced > 0, one-sided paired t p < alpha (flaw is measurable)
+  # (G4 and the diagnosis task were added in v2, after v1 results; see README "Versions")
+  primary_condition: confound_on

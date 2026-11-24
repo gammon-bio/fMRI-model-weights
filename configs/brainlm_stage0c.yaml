@@ -1,0 +1,16 @@
+# BrainLM Stage 0c (docs/brainlm_stage0c_plan.md, d37c86b + Amendment 1 9eb5217). Synthetic plumbing only.
+# Data, fine-tune and reference settings come unchanged from configs/brainlm_stage0b.yaml.
+stage0b_config: configs/brainlm_stage0b.yaml
+compute:
+  n_threads: 2            # torch / BLAS cap; keep below the core count
+  bf16_autocast: true
+effect: -0.3              # chosen in Stage 0b on tuning seeds 300 / 301; no new tuning
+seeds: [220, 221, 222]
+subspace:
+  energy: 0.90            # k = smallest number of PCs reaching this share of ||D||^2 (uncentred)
+  k_cap: 8
+dose:
+  alphas: [0.0, 0.25, 0.5, 0.75]   # alpha = 1 is H1 / H2 itself, run once
+  n_per_alpha: 10
+  overlap_tol: 1.0e-6
+wall_cap_s: 10800         # 3 h; checked by extrapolation after the first seed

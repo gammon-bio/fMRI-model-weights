@@ -1,0 +1,11 @@
+episode	session_id	configured_model	last_served_model	status	cost_usd
+fab-fix-001	session_01Y4tqQxC1fP3RiPrC2MftUH	claude-fable-5-2	claude-fable-5-2	completed	3.8046
+fab-fix-002	session_01Y4tqQv64fMZPkWoNyBfJbF	claude-fable-5-2	claude-fable-5-2	completed	3.0593
+fab-fix-006	session_01Y4tqQtvJGch6EWjuQVDrtM	claude-fable-5-2	claude-fable-5-2	completed	1.4601
+fab-fix-007	session_01Y4tqQvmzG6iNFXpgzyfKGi	claude-fable-5-2	claude-fable-5-2	completed	3.0353
+fab-fix-008	session_01Y4tqQwyTrVhSSejCLTsXCa	claude-fable-5-2	claude-fable-5-2	completed	1.8324
+fab-fix-009	session_01Y4tqQuCQ97Ghckh5shZyc6	claude-fable-5-2	claude-fable-5-2	completed	2.0461
+fab-fix-010	session_01Y4tqQxo2ZvUG1arAiyLwTo	claude-fable-5-2	claude-fable-5-2	completed	2.4899
+fab-fix-011	session_01Y4tqQwPBq2Bun6RKHU3z5N	claude-fable-5-2	claude-fable-5-2	completed	2.0171
+fab-fix-012	session_01Y4tqQw4Go6MJbLZu9TMAyj	claude-fable-5-2	claude-fable-5-2	completed	3.2145
+fab-fix-015	session_01Y4tqQuq7VhdQfGofFWDg4j	claude-fable-5-2	claude-fable-5-2	completed	3.2760

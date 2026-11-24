@@ -1,0 +1,2702 @@
+[
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-001",
+  "self": true,
+  "delta_auc": 0.15165532879818588
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": 0.0526984126984128
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.19999999999999996
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.050975056689342324
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.1457596371882085
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": 0.1558276643990929
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.20308390022675749
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.0766439909297052
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.20390022675736952
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.1867573696145125
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.11927437641723349
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.08589569160997734
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": 0.014149659863945563
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": 0.12562358276643992
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": 0.1574603174603173
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.2012698412698415
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.22185941043083912
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.1412244897959184
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.21024943310657596
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": 0.23854875283446708
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": 0.18086167800453512
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.14621315192743778
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.1763265306122449
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.0331065759637188
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.16163265306122465
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.013424036281179164
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.19337868480725628
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.15319727891156465
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.17260770975056683
+ },
+ {
+  "donor": "main-fix-001",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.18403628117913828
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.03056689342403618
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-003",
+  "self": true,
+  "delta_auc": 0.05405895691609974
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.16598639455782305
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.051882086167800434
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.0014512471655327985
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.025124716553287962
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2054421768707485
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.1256235827664398
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.20235827664399086
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.18394557823129254
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.09297052154195007
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.08680272108843534
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": 0.015147392290249417
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.028299319727891126
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.02285714285714302
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.19492063492063516
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.2182312925170069
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.14920634920634923
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.2222222222222222
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0016326530612245094
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": 0.20507936507936497
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.18539682539682545
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.14902494331065752
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.04226757369614509
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -0.004716553287981706
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.03537414965986396
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": -0.0002721088435373442
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.08807256235827676
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.18140589569160992
+ },
+ {
+  "donor": "main-fix-003",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.17986394557823127
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.05052154195011338
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.009795918367346945
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.19573696145124708
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.05823129251700687
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-006",
+  "self": true,
+  "delta_auc": 0.15011337868480723
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.025124716553287962
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.20399092970521548
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.07718820861678
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": -0.005895691609977383
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.20553287981859414
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.1355102040816326
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.07600907029478454
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.02049886621315189
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": 0.12780045351473923
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": 0.15573696145124716
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.20136054421768723
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.22249433106575978
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": -0.0045351473922902175
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.0025396825396825085
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": 0.2425396825396825
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.003809523809523818
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.0006349206349207659
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.12607709750566898
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.043990929705215454
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.15682539682539687
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.007074829931972726
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.19229024943310657
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.14240362811791385
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.007437641723356037
+ },
+ {
+  "donor": "main-fix-006",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.20217687074829926
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.04498866213151942
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.0109750566893424
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.1682539682539682
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.05877551020408167
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.0034467120181406186
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.003356009070294763
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2067120181405897
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-009",
+  "self": true,
+  "delta_auc": 0.13641723356009072
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": -0.0029931972789116745
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.20090702947845807
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.08136054421768701
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": 0.0014512471655327985
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.01188208616780051
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.02267573696145131
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.02303854875283451
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.2061678004535149
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.21487528344671214
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.00217687074829942
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.0009977324263039655
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0008163265306122547
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.0005442176870749105
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": -0.00217687074829942
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.14312925170068025
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": 0.005623582766439816
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.0027210884353742193
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.028662131519274436
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.0008163265306121437
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": -0.0034467120181405075
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.005351473922902472
+ },
+ {
+  "donor": "main-fix-009",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.20580498866213148
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.04598639455782316
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.01006802721088429
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.18195011337868483
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.05777777777777782
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.003537414965986474
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.00199546485260782
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2067120181405896
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.13668934240362796
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": -0.005895691609977383
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-011",
+  "self": true,
+  "delta_auc": 0.20526077097505668
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.13215419501133796
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": 0.0028117913832199637
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.018775510204081525
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.035374149659864074
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.021496598639455855
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.19900226757369632
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.2195011337868482
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.004172335600907018
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.001541950113378765
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0006349206349206549
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.0006349206349206549
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.00045351473922905505
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.1424943310657597
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": 0.007528344671201781
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.048616780045351526
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.0020861678004534534
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": -0.004444444444444362
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.007709750566893381
+ },
+ {
+  "donor": "main-fix-011",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.20390022675736963
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.037641723356009016
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": 0.0523356009070296
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.18258503401360537
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.052063492063492034
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.015056689342403673
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2065306122448981
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.13632653061224476
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.20362811791383206
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.18866213151927447
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-012",
+  "self": true,
+  "delta_auc": 0.11954648526077094
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.08235827664399098
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": 0.01795918367346927
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.038185941043083926
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.01904761904761909
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.19637188208616807
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.21823129251700701
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.15482993197278927
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.20843537414965996
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0029931972789116745
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": 0.19238095238095232
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.13895691609977334
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.1529251700680272
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.047891156462585016
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -0.0011791383219953433
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.04770975056689353
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": -0.00018140589569159982
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.0951473922902496
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.17088435374149658
+ },
+ {
+  "donor": "main-fix-012",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.1862131519274376
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.08027210884353742
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.017868480725623526
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": -0.02857142857142858
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.05496598639455785
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.002448979591836653
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": 0.1558276643990929
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.007709750566893381
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": -0.018956916099773236
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.2090702947845805
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": -0.007709750566893381
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": -0.04099773242630378
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-013",
+  "self": true,
+  "delta_auc": -0.08344671201814069
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.015328798185941128
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.03782312925170073
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": 0.0039002267573694516
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": -0.004172335600906796
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.00027210884353756626
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.13052154195011345
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.2184126984126985
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": 0.239092970521542
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": 0.19709750566893414
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.18485260770975065
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.09659863945578229
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.009795918367346945
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.011428571428571455
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": 0.009614512471655234
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.1966439909297052
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.002630385487528475
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": -0.012879818594104253
+ },
+ {
+  "donor": "main-fix-013",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.00807256235827658
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.03519274376417236
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": 0.12680272108843538
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.24716553287981846
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.011065759637188255
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.15437641723356
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.03537414965986396
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.18702947845804996
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.15238095238095228
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": -0.01741496598639458
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.16526077097505665
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.165532879818594
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.039092970521542036
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.006349206349206327
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": 0.13950113378684803
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-016",
+  "self": true,
+  "delta_auc": 0.15482993197278905
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.18185941043083909
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.2284807256235829
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": -0.005532879818594072
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": -0.007528344671201781
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": 0.2315646258503401
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.0320181405895692
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": -0.013605442176870652
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.1223582766439909
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.036009070294784506
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.16099773242630389
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.059047619047619015
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.17297052154195003
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.11310657596371887
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": -0.014149659863945563
+ },
+ {
+  "donor": "main-fix-016",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.19410430839002268
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.04598639455782316
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.01006802721088429
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.18195011337868483
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.05777777777777782
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.003537414965986474
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.00199546485260782
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2067120181405896
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.13668934240362796
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": -0.005895691609977383
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.20526077097505668
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.13215419501133796
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": 0.0028117913832199637
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.018775510204081525
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.035374149659864074
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.021496598639455855
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.19900226757369632
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-019",
+  "self": true,
+  "delta_auc": 0.2195011337868482
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.004172335600907018
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.001541950113378765
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0006349206349206549
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.0006349206349206549
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.00045351473922905505
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.1424943310657597
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": 0.007528344671201781
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.048616780045351526
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.0020861678004534534
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": -0.004444444444444362
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.007709750566893381
+ },
+ {
+  "donor": "main-fix-019",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.20390022675736963
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": -0.04507936507936494
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.01759637188208618
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.0012698412698413097
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.06077097505668938
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": -0.0023582766439910197
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.026303854875283417
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.0022675736961451642
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.0009977324263037435
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.2092517006802721
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": -0.007165532879818581
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": -0.03900226757369618
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.08916099773242636
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.015873015873015928
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.0022675736961451642
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.0014512471655329096
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.0003628117913834217
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": -0.0008163265306120326
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-020",
+  "self": true,
+  "delta_auc": 0.134421768707483
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.22068027210884356
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": 0.20671201814058948
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.18285714285714294
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.03446712018140585
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.04136054421768709
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -0.0032653061224489077
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": 0.0008163265306121437
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": -0.0009977324263039655
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.09977324263038556
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": -0.012879818594104253
+ },
+ {
+  "donor": "main-fix-020",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.005986394557823127
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": -0.013968253968253963
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.0017233560090703648
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": -0.03020408163265309
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.0025396825396825085
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.005351473922902472
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.02303854875283451
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.0039002267573696736
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": -0.020408163265306145
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.0009070294784579991
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": -0.001088435374149599
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.0011791383219954543
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.0759183673469388
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.0005442176870749105
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.03609977324263036
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": 0.004444444444444362
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": -0.0034467120181402855
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": -0.0005442176870745774
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": -0.011791383219954543
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.0012698412698413097
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-022",
+  "self": true,
+  "delta_auc": 0.24154195011337865
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.003718820861678185
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.001541950113378765
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.010340136054421745
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.04489795918367345
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.011428571428571566
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": 0.009977324263038545
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.19229024943310646
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": -0.03056689342403629
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.0013605442176870541
+ },
+ {
+  "donor": "main-fix-022",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": -0.04507936507936494
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.01759637188208618
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.0012698412698413097
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.06077097505668938
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": -0.0023582766439910197
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.026303854875283417
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.0022675736961451642
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.0009977324263037435
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.2092517006802721
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": -0.007165532879818581
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": -0.03900226757369618
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.08916099773242636
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.015873015873015928
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.0022675736961451642
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.0014512471655329096
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.0003628117913834217
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": -0.0008163265306120326
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.134421768707483
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.22068027210884356
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-023",
+  "self": true,
+  "delta_auc": 0.20671201814058948
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.18285714285714294
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.03446712018140585
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.04136054421768709
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -0.0032653061224489077
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": 0.0008163265306121437
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": -0.0009977324263039655
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.09977324263038556
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": -0.012879818594104253
+ },
+ {
+  "donor": "main-fix-023",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.005986394557823127
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.04598639455782316
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.01006802721088429
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.18195011337868483
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.05777777777777782
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.003537414965986474
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.00199546485260782
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2067120181405896
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.13668934240362796
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": -0.005895691609977383
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.20526077097505668
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.13215419501133796
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": 0.0028117913832199637
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": -0.018775510204081525
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.035374149659864074
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.021496598639455855
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.19900226757369632
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.2195011337868482
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.004172335600907018
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.001541950113378765
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0006349206349206549
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.0006349206349206549
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.00045351473922905505
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-025",
+  "self": true,
+  "delta_auc": 0.1424943310657597
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": 0.007528344671201781
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.048616780045351526
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": 0.0020861678004534534
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": -0.004444444444444362
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.007709750566893381
+ },
+ {
+  "donor": "main-fix-025",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.20390022675736963
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": -0.005714285714285672
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": -0.0009977324263038545
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": -0.025215419501133707
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": -0.00018140589569159982
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 0.007981859410430836
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.0107936507936508
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.004897959183673528
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": -0.018956916099773347
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.0011791383219954543
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": -0.00027210884353745524
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.0011791383219954543
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.07229024943310669
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": 0.00045351473922905505
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.025487528344671273
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": 0.003083900226757308
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": -0.0039002267573693405
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": -0.0009070294784578881
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": -0.009705215419500979
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.0017233560090703648
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": 0.2394557823129252
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": -0.0031746031746032743
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.0009070294784581101
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.016054421768707416
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.04281179138321989
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": 0.014331065759637274
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": 0.007256235827664215
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-029",
+  "self": true,
+  "delta_auc": 0.19492063492063494
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": -0.02911564625850327
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-031",
+  "self": false,
+  "delta_auc": 0.0025396825396825085
+ },
+ {
+  "donor": "main-fix-029",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.0002721088435373442
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-001",
+  "self": false,
+  "delta_auc": 0.037641723356009016
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-003",
+  "self": false,
+  "delta_auc": 0.0523356009070296
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-004",
+  "self": false,
+  "delta_auc": 0.18258503401360537
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-005",
+  "self": false,
+  "delta_auc": 0.052063492063492034
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-006",
+  "self": false,
+  "delta_auc": 9.07029478457444e-05
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-007",
+  "self": false,
+  "delta_auc": -0.015056689342403673
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-008",
+  "self": false,
+  "delta_auc": 0.2065306122448981
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-009",
+  "self": false,
+  "delta_auc": 0.13632653061224476
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-010",
+  "self": false,
+  "delta_auc": 0.20362811791383206
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-011",
+  "self": false,
+  "delta_auc": 0.18866213151927447
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-012",
+  "self": false,
+  "delta_auc": 0.11954648526077094
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-013",
+  "self": false,
+  "delta_auc": -0.08235827664399098
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-014",
+  "self": false,
+  "delta_auc": 0.01795918367346927
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-015",
+  "self": false,
+  "delta_auc": -0.038185941043083926
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-016",
+  "self": false,
+  "delta_auc": -0.01904761904761909
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-017",
+  "self": false,
+  "delta_auc": 0.19637188208616807
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-019",
+  "self": false,
+  "delta_auc": 0.21823129251700701
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-020",
+  "self": false,
+  "delta_auc": 0.15482993197278927
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-021",
+  "self": false,
+  "delta_auc": 0.20843537414965996
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-022",
+  "self": false,
+  "delta_auc": -0.0029931972789116745
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-023",
+  "self": false,
+  "delta_auc": 0.19238095238095232
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-024",
+  "self": false,
+  "delta_auc": 0.13895691609977334
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-025",
+  "self": false,
+  "delta_auc": 0.1529251700680272
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-026",
+  "self": false,
+  "delta_auc": -0.047891156462585016
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-027",
+  "self": false,
+  "delta_auc": -0.0011791383219953433
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-028",
+  "self": false,
+  "delta_auc": -0.04770975056689353
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-029",
+  "self": false,
+  "delta_auc": -0.00018140589569159982
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-030",
+  "self": false,
+  "delta_auc": 0.0951473922902496
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-031",
+  "self": true,
+  "delta_auc": 0.17088435374149658
+ },
+ {
+  "donor": "main-fix-031",
+  "recipient": "main-fix-032",
+  "self": false,
+  "delta_auc": 0.1862131519274376
+ }
+]

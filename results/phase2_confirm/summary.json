@@ -1,0 +1,56 @@
+{
+ "n_published": 30,
+ "void_or_unreadable": [
+  "conf-fix-013",
+  "conf-fix-021",
+  "conf-fix-041"
+ ],
+ "H_A": {
+  "n": 27,
+  "median_pct_matched": 64.0,
+  "mean_pct_matched": 67.12037037037037,
+  "wilcoxon_p_one_sided": 0.009372689899999512,
+  "frac_pct_gt_95": 0.4444444444444444,
+  "frac_pct_lt_5": 0.1111111111111111,
+  "secondary_minus_unedited_mean": 0.02895439657344418,
+  "secondary_ci95": [
+   -0.0018110355253212367,
+   0.0604095070126816
+  ],
+  "secondary_wilcoxon_p_one_sided": 0.04177818333767979,
+  "minus_pool_leace_mean": -0.048801545309481824,
+  "minus_reweight_ft_mean": -0.17905769715293524,
+  "n_no_submission": 0,
+  "n_no_change_edit": 8,
+  "pct_matched_all": [
+   0.0,
+   100.0,
+   100.0,
+   50.0,
+   100.0,
+   100.0,
+   19.0,
+   50.0,
+   0.0,
+   88.5,
+   64.0,
+   100.0,
+   100.0,
+   50.0,
+   50.0,
+   100.0,
+   100.0,
+   50.0,
+   100.0,
+   0.0,
+   50.0,
+   50.0,
+   100.0,
+   100.0,
+   50.0,
+   100.0,
+   40.75
+  ],
+  "n_improved_over_unedited": 13
+ }
+}

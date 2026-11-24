@@ -1,0 +1,15 @@
+{
+ "effect": -0.8,
+ "seed": 100,
+ "vanilla": {
+  "bacc": 1.0,
+  "auc": 1.0,
+  "n": 210
+ },
+ "reweight": {
+  "bacc": 1.0,
+  "auc": 1.0,
+  "n": 210
+ },
+ "headroom": 0.0
+}

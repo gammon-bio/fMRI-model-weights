@@ -1,0 +1,143 @@
+{
+ "note": "Synthetic plumbing only; not a scientific result. Primary file per_seed.json = attempt 0 (only run with the positive control).",
+ "attempt0": {
+  "settings": {
+   "finetune": {
+    "epochs": 8,
+    "batch_size": 16,
+    "lr_head": 0.001,
+    "lr_layers": 5e-05,
+    "weight_decay": 0.01,
+    "patience": 2
+   },
+   "data_overrides": {
+    "data.n_regions": 424,
+    "data.tr": 0.72,
+    "data.n_timepoints": 200,
+    "data.confound.freq_range": [
+     0.2,
+     0.6
+    ]
+   }
+  },
+  "seeds": [
+   200,
+   201,
+   202
+  ],
+  "gates": {
+   "G0_shortcut": {
+    "mean_headroom": 0.012003023431594873,
+    "headroom": [
+     0.1664399092970522,
+     0.07360544217687082,
+     -0.2040362811791384
+    ],
+    "vanilla_test_auc": [
+     0.9162679425837321,
+     0.9294258373205742,
+     0.9850478468899522
+    ],
+    "vanilla_test_balanced_auc": [
+     0.7045351473922902,
+     0.6658503401360544,
+     0.9017233560090703
+    ],
+    "mean_in_dist_minus_balanced": 0.1862109277522812,
+    "pass": false
+   },
+   "G0_control": {
+    "mean_a_minus_random_mean": 0.27641647770219197,
+    "per_seed": [
+     0.3418730158730158,
+     0.2840022675736962,
+     0.20337414965986395
+    ],
+    "a_beats_all_random": [
+     true,
+     true,
+     true
+    ],
+    "pass": true
+   },
+   "G0_compute": {
+    "seconds_per_seed_prepare_plus_controls": [
+     1752.024486541748,
+     1872.858972787857,
+     2246.2477498054504
+    ],
+    "mean": 1957.043736378352,
+    "pass": true
+   }
+  }
+ },
+ "attempt1_ep20": {
+  "change": "epochs 8->20; stopped after seed 200 (val_balanced headroom -0.052)",
+  "seeds": [
+   200
+  ],
+  "gates": {
+   "G0_shortcut": {
+    "mean_headroom": -0.04095238095238107,
+    "headroom": [
+     -0.04095238095238107
+    ],
+    "vanilla_test_auc": [
+     0.9940191387559809
+    ],
+    "vanilla_test_balanced_auc": [
+     0.9502040816326531
+    ],
+    "headroom_val_balanced": [
+     -0.05209876543209868
+    ],
+    "mean_headroom_val_balanced": -0.05209876543209868,
+    "mean_in_dist_minus_balanced": 0.04381505712332778,
+    "pass": false
+   }
+  },
+  "file": "per_seed_attempt1_ep20.json"
+ },
+ "attempt2_ep20_eff025": {
+  "change": "epochs 20 + data.diagnosis.effect -0.4 -> -0.25; fine-tune only",
+  "seeds": [
+   200,
+   201,
+   202
+  ],
+  "gates": {
+   "G0_shortcut": {
+    "mean_headroom": 0.08388510959939532,
+    "headroom": [
+     0.14458049886621327,
+     0.054920634920634814,
+     0.05215419501133789
+    ],
+    "vanilla_test_auc": [
+     0.8911483253588517,
+     0.8666267942583732,
+     0.8157894736842105
+    ],
+    "vanilla_test_balanced_auc": [
+     0.5722902494331065,
+     0.5689795918367346,
+     0.5439455782312925
+    ],
+    "headroom_val_balanced": [
+     0.17901234567901236,
+     0.016790123456789985,
+     0.11012345679012348
+    ],
+    "mean_headroom_val_balanced": 0.10197530864197528,
+    "mean_in_dist_minus_balanced": 0.29611639126676725,
+    "pass": false
+   }
+  },
+  "file": "per_seed_attempt2_ep20_eff025.json"
+ },
+ "final_verdict": {
+  "G0_shortcut": "FAIL (all attempts)",
+  "G0_control": "PASS (attempt 0 vanilla models)",
+  "G0_compute": "measured"
+ }
+}

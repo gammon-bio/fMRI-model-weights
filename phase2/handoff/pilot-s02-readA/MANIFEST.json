@@ -1,0 +1,11 @@
+{
+ "episode_id": "pilot-s02",
+ "task": "read_shortcut",
+ "arm": "A",
+ "files_sha256": {
+  "ARCH.md": "9a59b46573b83abac4664488e0778ac4df86238704f28f86c54ffbff2e6ce925",
+  "TASK.md": "df4f9475c1cbae554a1c723ba95cc7061c40d4207cd42b961d3d5605c72c3bf5",
+  "weights/model_A.npz": "058949d1f60a59518452d4592ad4fc79f3f7c86a2bce1116f0eb0754cc97a420",
+  "weights/model_B.npz": "b3304791300ea1c04c264ebd4dd1399575d34881b54727fc406fae2fa004646e"
+ }
+}

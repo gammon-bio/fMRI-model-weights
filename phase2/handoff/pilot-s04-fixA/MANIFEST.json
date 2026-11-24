@@ -1,0 +1,10 @@
+{
+ "episode_id": "pilot-s04",
+ "task": "fix",
+ "arm": "A",
+ "files_sha256": {
+  "ARCH.md": "9a59b46573b83abac4664488e0778ac4df86238704f28f86c54ffbff2e6ce925",
+  "TASK.md": "c9fc1bf1a6cf5e2c2fc7073ef3668b82b3549a7cafb932ac8f99c825083f8c82",
+  "weights/model.npz": "99b2977150280bc55d52c2966685c32ff0aefa2406ea71e1ecae272cb7c3c8c4"
+ }
+}

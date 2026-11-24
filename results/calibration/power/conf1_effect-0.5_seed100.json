@@ -1,0 +1,18 @@
+{
+ "effect": -0.5,
+ "seed": 100,
+ "extra_overrides": {
+  "data.confound.strength": 1.0
+ },
+ "vanilla": {
+  "bacc": 0.5,
+  "auc": 0.570249433106576,
+  "n": 210
+ },
+ "reweight": {
+  "bacc": 0.5476190476190477,
+  "auc": 0.5908390022675736,
+  "n": 210
+ },
+ "headroom": 0.04761904761904767
+}

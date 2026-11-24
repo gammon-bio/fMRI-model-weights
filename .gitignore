@@ -1,0 +1,29 @@
+# generated data, checkpoints, logs
+outputs/
+results/archive/
+*.pt
+*.npz
+*.log
+*.jsonl
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Phase 2 hand-off weights are agent-visible inputs and must be committed
+!phase2/handoff/**/*.npz
+
+# BrainLM (CC BY-NC-ND 4.0): weights, fine-tuned heads and activation caches never enter git
+pytorch_model.bin
+*.safetensors
+*.bin
+brainlm_cache/
+results/brainlm_stage0/cache/
+
+# private working notes (kept out of the public repo)
+CLAUDE.md
+.claude/
+docs/open_questions.md
+
+# export marker list (private; see scripts/export_public.sh)
+.export_markers

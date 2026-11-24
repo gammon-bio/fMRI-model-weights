@@ -1,0 +1,619 @@
+[
+ {
+  "episode": "conf-fix-002",
+  "seed": 1007708503,
+  "delta_auc": -0.06004535147392287,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.5838548752834467,
+  "scripted_all_carrier_delta": 0.1194557823129252,
+  "scripted_lowprev_delta": -0.014331065759637274,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-003",
+  "seed": 1747048829,
+  "delta_auc": 0.04870748299319727,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.8429024943310658,
+  "scripted_all_carrier_delta": 0.11346938775510196,
+  "scripted_lowprev_delta": 0.01868480725623567,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-004",
+  "seed": 696298232,
+  "delta_auc": 0.08272108843537418,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.7564625850340135,
+  "scripted_all_carrier_delta": 0.12281179138322007,
+  "scripted_lowprev_delta": -0.004263038548752873,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-005",
+  "seed": 1038532698,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7629024943310656,
+  "scripted_all_carrier_delta": 0.18911564625850352,
+  "scripted_lowprev_delta": 0.18811791383219967,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-006",
+  "seed": 1045818590,
+  "delta_auc": 0.11827664399092963,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7535600907029478,
+  "scripted_all_carrier_delta": 0.1942857142857144,
+  "scripted_lowprev_delta": 0.11873015873015869,
+  "rho": 0.9948994244739245,
+  "embed_rel_norm": 0.15994833674255843,
+  "carrier_energy_removed": 0.12217434246559289,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ },
+ {
+  "episode": "conf-fix-007",
+  "seed": 136031830,
+  "delta_auc": 0.21170068027210875,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.2,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.678639455782313,
+  "scripted_all_carrier_delta": 0.21596371882086163,
+  "scripted_lowprev_delta": 0.212517006802721,
+  "rho": 0.9886498613484602,
+  "embed_rel_norm": 0.20328949598582435,
+  "carrier_energy_removed": 0.15468535138342288,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ },
+ {
+  "episode": "conf-fix-009",
+  "seed": 1710971249,
+  "delta_auc": -0.04498866213151931,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.14666666666666667,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7185487528344672,
+  "scripted_all_carrier_delta": 0.1470294784580498,
+  "scripted_lowprev_delta": 0.09714285714285709,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-010",
+  "seed": 311977157,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.14666666666666667,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7945578231292516,
+  "scripted_all_carrier_delta": 0.11401360544217698,
+  "scripted_lowprev_delta": 0.10575963718820869,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-014",
+  "seed": 765512504,
+  "delta_auc": -0.10031746031746025,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.6591383219954648,
+  "scripted_all_carrier_delta": 0.09904761904761905,
+  "scripted_lowprev_delta": 0.05478458049886614,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-016",
+  "seed": 2076662089,
+  "delta_auc": 0.0029931972789113415,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.6955102040816327,
+  "scripted_all_carrier_delta": 0.18866213151927436,
+  "scripted_lowprev_delta": 0.2189569160997732,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-019",
+  "seed": 836167724,
+  "delta_auc": -0.07020408163265313,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.6541496598639457,
+  "scripted_all_carrier_delta": 0.04317460317460298,
+  "scripted_lowprev_delta": 0.003990929705215196,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-020",
+  "seed": 517057624,
+  "delta_auc": 0.040907029478458146,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.14666666666666667,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7740589569160997,
+  "scripted_all_carrier_delta": 0.1878458049886622,
+  "scripted_lowprev_delta": 0.16290249433106585,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-022",
+  "seed": 631555428,
+  "delta_auc": 0.16208616780045337,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.2,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.8053514739229026,
+  "scripted_all_carrier_delta": 0.16408163265306108,
+  "scripted_lowprev_delta": 0.16208616780045337,
+  "rho": 0.9999999999999933,
+  "embed_rel_norm": 0.27195910311654187,
+  "carrier_energy_removed": 0.23204734291130624,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ },
+ {
+  "episode": "conf-fix-024",
+  "seed": 1981101178,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.6934240362811791,
+  "scripted_all_carrier_delta": 0.12435374149659861,
+  "scripted_lowprev_delta": 0.03392290249433105,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-026",
+  "seed": 887614839,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7360544217687075,
+  "scripted_all_carrier_delta": 0.22485260770975057,
+  "scripted_lowprev_delta": 0.24462585034013595,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-027",
+  "seed": 136716775,
+  "delta_auc": 0.021859410430838944,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight",
+   "head.bias"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.6384580498866214,
+  "scripted_all_carrier_delta": 0.0440816326530612,
+  "scripted_lowprev_delta": -0.03455782312925171,
+  "rho": 0.4721444588189576,
+  "embed_rel_norm": 0.5026115028178423,
+  "carrier_energy_removed": 0.5172183999446902,
+  "extra_tensors": [
+   "head.bias"
+  ],
+  "extra_non_bias_tensors": [],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-029",
+  "seed": 1575811194,
+  "delta_auc": 0.11092970521541956,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7631746031746032,
+  "scripted_all_carrier_delta": 0.1871201814058957,
+  "scripted_lowprev_delta": 0.11111111111111116,
+  "rho": 0.9948877591277685,
+  "embed_rel_norm": 0.23160521086718347,
+  "carrier_energy_removed": 0.21552320021777316,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ },
+ {
+  "episode": "conf-fix-030",
+  "seed": 503872765,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.6352834467120181,
+  "scripted_all_carrier_delta": 0.16344671201814065,
+  "scripted_lowprev_delta": 0.020589569160997856,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-032",
+  "seed": 648243997,
+  "delta_auc": 0.13687074829931967,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight",
+   "head.bias"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.7236281179138322,
+  "scripted_all_carrier_delta": 0.143219954648526,
+  "scripted_lowprev_delta": 0.151655328798186,
+  "rho": 0.9697761824035463,
+  "embed_rel_norm": 0.32830788972647423,
+  "carrier_energy_removed": 0.36750885688954604,
+  "extra_tensors": [
+   "head.bias"
+  ],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ },
+ {
+  "episode": "conf-fix-033",
+  "seed": 1332690449,
+  "delta_auc": -0.15990929705215412,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.09333333333333334,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.6097052154195011,
+  "scripted_all_carrier_delta": -0.025759637188208617,
+  "scripted_lowprev_delta": 0.007256235827664437,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-034",
+  "seed": 431077616,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.2,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7749659863945578,
+  "scripted_all_carrier_delta": 0.17551020408163265,
+  "scripted_lowprev_delta": 0.16952380952380952,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-035",
+  "seed": 1168806811,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.7495691609977325,
+  "scripted_all_carrier_delta": 0.1570975056689341,
+  "scripted_lowprev_delta": 0.0009977324263037435,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-036",
+  "seed": 264122620,
+  "delta_auc": 0.16090702947845814,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.14666666666666667,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7533786848072561,
+  "scripted_all_carrier_delta": 0.18167800453514749,
+  "scripted_lowprev_delta": 0.16253968253968265,
+  "rho": 0.44593089824213805,
+  "embed_rel_norm": 0.37744097287324974,
+  "carrier_energy_removed": 0.18824316032202293,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-037",
+  "seed": 1115609656,
+  "delta_auc": 0.11337868480725632,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.2,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.8185034013605442,
+  "scripted_all_carrier_delta": 0.12698412698412698,
+  "scripted_lowprev_delta": 0.11174603174603182,
+  "rho": 0.9815660873930524,
+  "embed_rel_norm": 0.17283745097618045,
+  "carrier_energy_removed": 0.14320824636093044,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ },
+ {
+  "episode": "conf-fix-038",
+  "seed": 1327342281,
+  "delta_auc": 0.0,
+  "no_change": true,
+  "no_submission": false,
+  "tensors": [],
+  "low_prev_freq": 0.14666666666666667,
+  "stratum_004": false,
+  "unedited_auc_recomputed": 0.7598185941043084,
+  "scripted_all_carrier_delta": 0.1633560090702948,
+  "scripted_lowprev_delta": 0.17551020408163254,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "no_op"
+ },
+ {
+  "episode": "conf-fix-039",
+  "seed": 1288034809,
+  "delta_auc": 0.014875283446711962,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.767437641723356,
+  "scripted_all_carrier_delta": 0.17369614512471643,
+  "scripted_lowprev_delta": 0.09741496598639454,
+  "rho": 0.0,
+  "embed_rel_norm": null,
+  "carrier_energy_removed": null,
+  "extra_tensors": [
+   "head.bias",
+   "head.weight"
+  ],
+  "extra_non_bias_tensors": [
+   "head.weight"
+  ],
+  "edit_class": "OFF"
+ },
+ {
+  "episode": "conf-fix-040",
+  "seed": 779115988,
+  "delta_auc": -0.00897959183673469,
+  "no_change": false,
+  "no_submission": false,
+  "tensors": [
+   "embed.weight"
+  ],
+  "low_prev_freq": 0.04,
+  "stratum_004": true,
+  "unedited_auc_recomputed": 0.7491156462585034,
+  "scripted_all_carrier_delta": 0.17006802721088432,
+  "scripted_lowprev_delta": 0.038004535147392327,
+  "rho": 0.9999999999999882,
+  "embed_rel_norm": 0.20012037915488445,
+  "carrier_energy_removed": 0.1284298504014244,
+  "extra_tensors": [],
+  "extra_non_bias_tensors": [],
+  "edit_class": "ON"
+ }
+]

@@ -1,0 +1,164 @@
+{
+ "n_included_valid": 27,
+ "n_on": 7,
+ "n_off": 12,
+ "n_no_op": 8,
+ "rho_threshold": 0.5,
+ "min_n": 5,
+ "H_M1": {
+  "mean_on": 0.12060900550696466,
+  "mean_off": -0.005207860922146641,
+  "ci95_on": [
+   0.0712536443148688,
+   0.1626977648202137
+  ],
+  "ci95_off": [
+   -0.052917989417989426,
+   0.04218461829176114
+  ],
+  "diff_means_ci95": [
+   0.05867940827124497,
+   0.19031122448979587
+  ],
+  "p_one_sided": 0.003592125109152973,
+  "hodges_lehmann": 0.12158730158730147,
+  "verdict": "supported",
+  "sensitivity_ceiling_adjusted": {
+   "mean_on": -0.051065759637188214,
+   "mean_off": -0.12147392290249433,
+   "p_one_sided": 0.01417004048582996
+  },
+  "sensitivity_tiny_norm_excluded": {
+   "n_dropped": 0,
+   "n_on": 7,
+   "n_off": 12,
+   "p_one_sided": 0.003592125109152973
+  },
+  "covariate_balance": {
+   "ON": {
+    "n": 7,
+    "frac_stratum_004": 0.2857142857142857,
+    "mean_scripted_all_carrier_delta": 0.17167476514415286,
+    "mean_unedited_auc": 0.7559961127308067
+   },
+   "OFF": {
+    "n": 12,
+    "frac_stratum_004": 0.5833333333333334,
+    "mean_scripted_all_carrier_delta": 0.11626606198034768,
+    "mean_unedited_auc": 0.7044671201814059
+   }
+  },
+  "on_episode_details": [
+   {
+    "episode": "conf-fix-006",
+    "rho": 0.9948994244739245,
+    "carrier_energy_removed": 0.12217434246559289,
+    "embed_rel_norm": 0.15994833674255843,
+    "extra_non_bias_tensors": [],
+    "delta_auc": 0.11827664399092963
+   },
+   {
+    "episode": "conf-fix-007",
+    "rho": 0.9886498613484602,
+    "carrier_energy_removed": 0.15468535138342288,
+    "embed_rel_norm": 0.20328949598582435,
+    "extra_non_bias_tensors": [],
+    "delta_auc": 0.21170068027210875
+   },
+   {
+    "episode": "conf-fix-022",
+    "rho": 0.9999999999999933,
+    "carrier_energy_removed": 0.23204734291130624,
+    "embed_rel_norm": 0.27195910311654187,
+    "extra_non_bias_tensors": [],
+    "delta_auc": 0.16208616780045337
+   },
+   {
+    "episode": "conf-fix-029",
+    "rho": 0.9948877591277685,
+    "carrier_energy_removed": 0.21552320021777316,
+    "embed_rel_norm": 0.23160521086718347,
+    "extra_non_bias_tensors": [],
+    "delta_auc": 0.11092970521541956
+   },
+   {
+    "episode": "conf-fix-032",
+    "rho": 0.9697761824035463,
+    "carrier_energy_removed": 0.36750885688954604,
+    "embed_rel_norm": 0.32830788972647423,
+    "extra_non_bias_tensors": [],
+    "delta_auc": 0.13687074829931967
+   },
+   {
+    "episode": "conf-fix-037",
+    "rho": 0.9815660873930524,
+    "carrier_energy_removed": 0.14320824636093044,
+    "embed_rel_norm": 0.17283745097618045,
+    "extra_non_bias_tensors": [],
+    "delta_auc": 0.11337868480725632
+   },
+   {
+    "episode": "conf-fix-040",
+    "rho": 0.9999999999999882,
+    "carrier_energy_removed": 0.1284298504014244,
+    "embed_rel_norm": 0.20012037915488445,
+    "extra_non_bias_tensors": [],
+    "delta_auc": -0.00897959183673469
+   }
+  ]
+ },
+ "H_M2": {
+  "n": 7,
+  "p_one_sided": 0.015625,
+  "n_improved": 6,
+  "verdict": "supported"
+ },
+ "H_M3": {
+  "n_004": 11,
+  "n_rest": 16,
+  "mean_004": 0.04640692640692635,
+  "mean_rest": 0.13155895691609978,
+  "diff_means_ci95": [
+   -0.1346363636363637,
+   -0.028574314574314644
+  ],
+  "p_one_sided": 0.003083907052926129,
+  "verdict": "supported"
+ },
+ "positive_control": {
+  "mean": 0.14476526413034346,
+  "ci95": [
+   0.12291517594692196,
+   0.1639040060468632
+  ],
+  "p_one_sided": 1.4901161193847656e-08,
+  "n_improved": 26,
+  "flag": false
+ },
+ "H_A_replication": {
+  "n": 27,
+  "wilcoxon_p_one_sided": 0.009372689899999512,
+  "median_pct_matched": 64.0,
+  "secondary_minus_unedited_mean": 0.02895439657344418,
+  "secondary_ci95": [
+   -0.0018110355253212367,
+   0.0604095070126816
+  ],
+  "n_improved_over_unedited": 13,
+  "n_no_change_edit": 8
+ },
+ "holm_secondary": {
+  "H_M3": 0.009251721158778387,
+  "H_A": 0.018745379799999025,
+  "H_M2": 0.018745379799999025
+ },
+ "exploratory_frac_embed_edit": 0.3333333333333333,
+ "seed_collisions_with_prior": [],
+ "n_prior_episodes_checked": 67,
+ "n_prior_distinct_seeds": 65,
+ "void_or_unreadable": [
+  "conf-fix-013",
+  "conf-fix-021",
+  "conf-fix-041"
+ ]
+}
